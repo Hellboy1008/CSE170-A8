@@ -9,7 +9,6 @@ exports.view = function(req, res) {
     user_data["viewAlt"] = false;
     name = "Anonymous";
     user_data.users.push({ "name": name });
-    console.log(user_data);
     res.render('home', user_data);
 };
 

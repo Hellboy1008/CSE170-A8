@@ -39,22 +39,17 @@
 		</ul>
 	</li>
 
-	<img class="centerimg" src="images/Center_Puzzle.jpg"></img>
-
-	<a class="links linksbot trending" href="/trending">Trending</a>
-	<a class="links linksbot contact" href="/contact">Contact Us</a>
-
 	<form class="searchbar" onclick="return false">
 		<input id="search-bar" type="text" placeholder="Search for games...">
 		<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
 	</form>
 
-	<a target="_blank" href="https://www.facebook.com">
-		<img class="icons fb" src="images/Facebook.png"></img>
-	</a>
-	<a target="_blank" href="https://www.instagram.com">
-		<img class="icons insta" src="images/Instagram.png"></img>
-	</a>
+	<a class="links linksbot trending" href="/trending" style="margin-top:70px; margin-left:45px;">Trending</a>
+	<a class="links linksbot contact" href="/contact" style="margin-top:70px; margin-left:110px;">Contact Us</a>
+
+	<img class="centerimg" src="images/Center_Puzzle.jpg" style="width:50%; margin-top:60px;"></img>
+
+	{{> socialmedia}}
 
 	{{else}}
 	<img class="header topimg" src="images/Green_Puzzle.png"></img>
@@ -86,12 +81,7 @@
 		<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
 	</form>
 
-	<a target="_blank" href="https://www.facebook.com">
-		<img class="icons fb" src="images/Facebook.png"></img>
-	</a>
-	<a target="_blank" href="https://www.instagram.com">
-		<img class="icons insta" src="images/Instagram.png"></img>
-	</a>
+	{{> socialmedia}}
 
 	{{/if}}
 

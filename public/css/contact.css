@@ -2,6 +2,10 @@ html {
     overflow: scroll;
 }
 
+body {
+    background: #fffff0;
+}
+
 .header-bar {
     background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
 }
@@ -71,6 +75,10 @@ html {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
+
+.icons {
+    display: inline;
 }
 
 @media screen and (max-width: 812px) {
@@ -190,5 +198,15 @@ html {
     }
     .submit-btn:hover {
         background-color: #45a049;
+    }
+    .icons {
+        margin-top: 50px;
+        width: 55px;
+    }
+    .fb {
+        margin-left: 135px;
+    }
+    .insta {
+        margin-left: 10px;
     }
 }
