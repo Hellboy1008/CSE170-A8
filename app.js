@@ -37,6 +37,7 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/home', home.view);
+app.get('/homeAlt', home.viewAlt);
 app.get('/contact', contact.view);
 
 // list of all categories
