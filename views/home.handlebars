@@ -28,26 +28,25 @@
 
 	<p class="user-name">{{users.0.name}}</p>
 
-	<a class="links new-releases" href="/new_releases">New Releases</a>
 	<li class="links dropdown">
-		<a class="dropdown-toggle" data-toggle="dropdown">Categories<span class="caret"></span></a>
-		<ul class="dropdown-menu" role="menu">
+		<a class="dropdown-toggle" data-toggle="dropdown" style="margin-left:20px;">Categories<span
+				class="caret"></span></a>
+		<ul class="dropdown-menu" role="menu" style="left:11px;">
+			<li><a class="botborder" href="/new_releases">New Releases</a></li>
+			<li><a class="botborder" href="/trending">Trending</a></li>
 			<li><a class="botborder" href="/party">Party</a></li>
 			<li><a class="botborder" href="/family">Family</a></li>
 			<li><a class="botborder" href="/card">Card</a></li>
 			<li><a href="/kids">Kids</a></li>
 		</ul>
 	</li>
+	<a class="links new-releases" href="/contact"
+		style="margin-top:150px;color: #00D8D0;margin-left:80px;margin-top:60px;">Contact Us</a>
 
-	<form class="searchbar" onclick="return false">
+	<form class="searchbar" onclick="return false" style="margin-top:130px;margin-bottom:200px;">
 		<input id="search-bar" type="text" placeholder="Search for games...">
 		<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
 	</form>
-
-	<a class="links linksbot trending" href="/trending" style="margin-top:70px; margin-left:45px;">Trending</a>
-	<a class="links linksbot contact" href="/contact" style="margin-top:70px; margin-left:110px;">Contact Us</a>
-
-	<img class="centerimg" src="images/Center_Puzzle.jpg" style="width:50%; margin-top:60px;"></img>
 
 	{{> socialmedia}}
 
