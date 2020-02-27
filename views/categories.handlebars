@@ -19,15 +19,19 @@
 <body>
 
 	{{> headerbar}}
-	
+
 	<h1 class="category-title"> {{title}} </h1>
+
+	<p class="category-description">{{category-description}}</p>
 
 	{{#each games}}
 	<div class="indv-game">
 		<div class="game">
-			<img class="gamepic" src="{{imageURL}}"></img>
+			<a href='{{viewURL}}'>
+				<img class="gamepic" src="{{imageURL}}"></img>
+			</a>
 			<p class="gamedescription">
-				<span class="gametitle">{{name}}</span>
+				<a class="gametitle" href='{{viewURL}}'>{{name}}</a>
 				<br><br>
 				{{category-description}}
 			</p>

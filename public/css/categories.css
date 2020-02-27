@@ -71,6 +71,12 @@ body {
     font-weight: 300;
 }
 
+.category-description {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
 .game {
     display: flex;
     align-items: center;
@@ -80,6 +86,7 @@ body {
 .gametitle {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+    color: black;
 }
 
 .gamedescription {
@@ -197,6 +204,10 @@ body {
     .category-title {
         font-size: 25px;
         margin-top: 10px;
+    }
+    .category-description {
+        font-size: 15px;
+        margin-top: 20px;
     }
     .gamepic {
         width: 140px;

@@ -1,5 +1,6 @@
 {
     "title": "Trending",
+    "category-description": "Check out the top trending games in the market!",
     "games": [{
         "name": "Carcassonne",
         "buyURL": "https://www.amazon.com/Z-Man-Games-ZM7810-Carcassonne/dp/B00NX627HW",

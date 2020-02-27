@@ -1,5 +1,6 @@
 {
     "title": "Kids Games",
+    "category-description": "Check out fun board games for kids!",
     "games": [{
         "name": "Clue",
         "buyURL": "https://www.amazon.com/Hasbro-N-A-Clue-Game/dp/B07BMJPPXV",

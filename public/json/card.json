@@ -1,5 +1,6 @@
 {
     "title": "Card Games",
+    "category-description": "Check out different card-based board games!",
     "games": [{
         "name": "Cards Against Humanity",
         "buyURL": "https://www.amazon.com/Cards-Against-Humanity-LLC-CAHUS/dp/B004S8F7QM",
